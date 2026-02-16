@@ -86,7 +86,7 @@ class PapyrusViewController: UIViewController {
             }
             guard let player = gameManager.game?.player else { return }
             if player is Human {
-                title = "Your Turn"
+                title = "Colby Mode"
             } else {
                 title = "Thinking..."
             }
